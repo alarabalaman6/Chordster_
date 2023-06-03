@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7">
+
+
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select the chords you know:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <GridLayout
+        android:id="@+id/gridLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:paddingHorizontal="2dp"
+        android:paddingTop="20dp"
+        android:rowCount="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/select">
+
+        <CheckBox
+            android:id="@+id/chk_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A" />
+
+        <CheckBox
+            android:id="@+id/chk_am"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Am" />
+
+        <CheckBox
+            android:id="@+id/chk_am7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Am7" />
+
+        <CheckBox
+            android:id="@+id/chk_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B" />
+
+        <CheckBox
+            android:id="@+id/chk_bm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bm" />
+
+        <CheckBox
+            android:id="@+id/chk_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C" />
+
+        <CheckBox
+            android:id="@+id/chk_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D" />
+
+        <CheckBox
+            android:id="@+id/chk_dm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dm" />
+
+        <CheckBox
+            android:id="@+id/chk_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E" />
+
+        <CheckBox
+
+            android:id="@+id/chk_em"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Em" />
+
+
+        <CheckBox
+            android:id="@+id/chk_f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F" />
+
+        <CheckBox
+            android:id="@+id/chk_f7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F7" />
+
+        <CheckBox
+            android:id="@+id/chk_g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G" />
+
+        <CheckBox
+            android:id="@+id/chk_g7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G7" />
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/buttonSeeAllSongs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="See all songs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_proceed"
+        app:rippleColor="#632323" />
+
+    <Button
+        android:id="@+id/button_proceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Proceed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout2"
+        app:layout_constraintVertical_bias="0.055" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
