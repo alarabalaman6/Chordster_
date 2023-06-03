@@ -10,5 +10,7 @@ The app features a database of songs with their corresponding chords and chord s
 **Features**
 
 **Select Chords:** Guitarists can select chords from a list of checkboxes and then find songs that can be played with only those chords.
+
 **See All Songs:** The app also has a feature that allows users to see all the songs in the database, regardless of the chords they use.
+
 **Song Chord Sheets:** After finding a song they want to play, guitarists can view the song's chord sheet, which displays the song lyrics with the chords inline.
